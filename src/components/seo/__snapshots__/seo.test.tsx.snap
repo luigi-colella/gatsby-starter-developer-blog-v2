@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SEO component matches snapshot with all props 1`] = `
+<HelmetWrapper
+  defer={true}
+  encodeSpecialCharacters={true}
+  link={
+    Array [
+      Object {
+        "href": "https://lgcolella.github.io/gatsby-starter-developer-blog-v2/path-of-article/",
+        "rel": "canonical",
+      },
+      Object {
+        "href": "https://lgcolella.github.io/gatsby-starter-developer-blog-v2/it/path-of-article/",
+        "hreflang": "it",
+        "rel": "alternate",
+      },
+      Object {
+        "href": "https://lgcolella.github.io/gatsby-starter-developer-blog-v2/en/path-of-article/",
+        "hreflang": "en",
+        "rel": "alternate",
+      },
+    ]
+  }
+  meta={
+    Array [
+      Object {
+        "content": "Description of article",
+        "name": "description",
+      },
+      Object {
+        "content": "Title of article",
+        "property": "og:title",
+      },
+      Object {
+        "content": "article",
+        "property": "og:type",
+      },
+      Object {
+        "content": "https://lgcolella.github.io/gatsby-starter-developer-blog-v2/path-of-article/",
+        "property": "og:url",
+      },
+      Object {
+        "content": "Description of article",
+        "property": "og:description",
+      },
+      Object {
+        "content": "https://lgcolella.github.io/gatsby-starter-developer-blog-v2/image-of-article.jpg",
+        "property": "og:image",
+      },
+      Object {
+        "content": "Description of article",
+        "property": "og:image:alt",
+      },
+      Object {
+        "content": "Vincent van Gogh",
+        "property": "og:site_name",
+      },
+      Object {
+        "content": "it",
+        "property": "og:locale",
+      },
+      Object {
+        "content": "summary_large_image",
+        "name": "twitter:card",
+      },
+      Object {
+        "content": "Title of article",
+        "name": "twitter:title",
+      },
+      Object {
+        "content": "Description of article",
+        "name": "twitter:description",
+      },
+      Object {
+        "content": "https://lgcolella.github.io/gatsby-starter-developer-blog-v2/image-of-article.jpg",
+        "name": "twitter:image",
+      },
+      Object {
+        "content": "Description of article",
+        "name": "twitter:image:alt",
+      },
+      Object {
+        "content": "Vincent van Gogh",
+        "name": "twitter:site",
+      },
+      Object {
+        "content": "Vincent van Gogh",
+        "name": "twitter:creator",
+      },
+      Object {
+        "content": "tag1, tag2",
+        "name": "keywords",
+      },
+    ]
+  }
+  title="Title of article"
+  titleTemplate="%s | Vincent van Gogh"
+/>
+`;
+
+exports[`SEO component matches snapshot with minimal props 1`] = `
+<HelmetWrapper
+  defer={true}
+  encodeSpecialCharacters={true}
+  link={
+    Array [
+      Object {
+        "href": "https://lgcolella.github.io/gatsby-starter-developer-blog-v2/path-of-article/",
+        "rel": "canonical",
+      },
+    ]
+  }
+  meta={
+    Array [
+      Object {
+        "content": "Description of article",
+        "name": "description",
+      },
+      Object {
+        "content": "Title of article",
+        "property": "og:title",
+      },
+      Object {
+        "content": "website",
+        "property": "og:type",
+      },
+      Object {
+        "content": "https://lgcolella.github.io/gatsby-starter-developer-blog-v2/path-of-article/",
+        "property": "og:url",
+      },
+      Object {
+        "content": "Description of article",
+        "property": "og:description",
+      },
+      Object {
+        "content": "https://lgcolella.github.io/gatsby-starter-developer-blog-v2/image-for-meta.png",
+        "property": "og:image",
+      },
+      Object {
+        "content": "Description of article",
+        "property": "og:image:alt",
+      },
+      Object {
+        "content": "Vincent van Gogh",
+        "property": "og:site_name",
+      },
+      Object {
+        "content": "en_US",
+        "property": "og:locale",
+      },
+      Object {
+        "content": "summary_large_image",
+        "name": "twitter:card",
+      },
+      Object {
+        "content": "Title of article",
+        "name": "twitter:title",
+      },
+      Object {
+        "content": "Description of article",
+        "name": "twitter:description",
+      },
+      Object {
+        "content": "https://lgcolella.github.io/gatsby-starter-developer-blog-v2/image-for-meta.png",
+        "name": "twitter:image",
+      },
+      Object {
+        "content": "Description of article",
+        "name": "twitter:image:alt",
+      },
+      Object {
+        "content": "Vincent van Gogh",
+        "name": "twitter:site",
+      },
+      Object {
+        "content": "Vincent van Gogh",
+        "name": "twitter:creator",
+      },
+      Object {
+        "content": "developer, development, web, javascript, frontend, backend, fullstack",
+        "name": "keywords",
+      },
+    ]
+  }
+  title="Title of article"
+  titleTemplate="%s | Vincent van Gogh"
+/>
+`;

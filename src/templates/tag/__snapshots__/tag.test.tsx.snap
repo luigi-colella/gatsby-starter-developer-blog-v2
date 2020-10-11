@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tag template matches snapshot 1`] = `
+<Layout
+  className=""
+  showHeader={true}
+  title=""
+>
+  <SEO
+    description="All posts about Angular"
+    keywords={
+      Array [
+        "Angular",
+      ]
+    }
+    path="/tag/angular/"
+    title="Angular"
+  />
+  <div
+    className="heading"
+  >
+    <div>
+      <h1>
+        Angular
+      </h1>
+    </div>
+    <div
+      className="cover"
+    >
+      <Image
+        Tag="div"
+        alt=""
+        durationFadeIn={500}
+        fadeIn={true}
+        fluid={
+          Object {
+            "aspectRatio": 1.7,
+            "sizes": "(max-width: 600px) 100vw, 600px",
+            "src": "/static/da8d0fc0af7f0d310517048e303b3fcf/a5a41/preview.jpg",
+            "srcSet": "/static/da8d0fc0af7f0d310517048e303b3fcf/a5a41/preview.jpg",
+          }
+        }
+        loading="eager"
+      />
+    </div>
+  </div>
+  <PostList
+    contentClassName=""
+    posts={
+      Array [
+        Object {
+          "node": Object {
+            "frontmatter": Object {
+              "cover": Object {
+                "childImageSharp": Object {
+                  "fluid": Object {
+                    "aspectRatio": 1.7,
+                    "sizes": "(max-width: 600px) 100vw, 600px",
+                    "src": "/static/da8d0fc0af7f0d310517048e303b3fcf/a5a41/preview.jpg",
+                    "srcSet": "/static/da8d0fc0af7f0d310517048e303b3fcf/a5a41/preview.jpg",
+                  },
+                },
+              },
+              "date": "2019-05-14",
+              "excerpt": "an excertp for the article #1",
+              "path": "path-to-the-article-1",
+              "tags": Array [
+                "javascript",
+                "express",
+              ],
+              "title": "Title of article #1",
+            },
+          },
+        },
+        Object {
+          "node": Object {
+            "frontmatter": Object {
+              "cover": Object {
+                "childImageSharp": Object {
+                  "fluid": Object {
+                    "aspectRatio": 1.7,
+                    "sizes": "(max-width: 600px) 100vw, 600px",
+                    "src": "/static/da8d0fc0af7f0d310517048e303b3fcf/a5a41/preview.jpg",
+                    "srcSet": "/static/da8d0fc0af7f0d310517048e303b3fcf/a5a41/preview.jpg",
+                  },
+                },
+              },
+              "date": "2018-12-15",
+              "excerpt": "an excertp for the article #2",
+              "path": "path-to-the-article-2",
+              "tags": Array [
+                "nodejs",
+                "angular",
+              ],
+              "title": "Title of article #2",
+            },
+          },
+        },
+      ]
+    }
+  />
+</Layout>
+`;

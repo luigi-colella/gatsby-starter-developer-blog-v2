@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/out-tsc",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "module": "commonjs",                     
+    "strict": true,                           
+    "allowSyntheticDefaultImports": true,     
+    "esModuleInterop": true,                  
+    "jsx": "preserve"                         
+  },
+  "exclude": [
+    ".cache",
+    "content",
+    "node_modules",
+    "public",
+    "repository",
+    "tests",
+    "**/*.test.tsx"
+  ]
+}

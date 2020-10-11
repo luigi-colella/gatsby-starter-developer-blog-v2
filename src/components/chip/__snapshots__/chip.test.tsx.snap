@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chip component matches snapshot 1`] = `
+<Chip>
+  <label
+    className="chip "
+  >
+    Text
+  </label>
+</Chip>
+`;
+
+exports[`Chip component matches snapshot 2`] = `
+<Chip
+  hoverEffect={true}
+>
+  <label
+    className="chip_with_hover "
+  >
+    Text
+  </label>
+</Chip>
+`;
+
+exports[`Chip component matches snapshot 3`] = `
+<Chip
+  className="class"
+>
+  <label
+    className="chip class"
+  >
+    Text
+  </label>
+</Chip>
+`;
+
+exports[`Chip component matches snapshot 4`] = `
+<Chip
+  className="class"
+  hoverEffect={true}
+>
+  <label
+    className="chip_with_hover class"
+  >
+    Text
+  </label>
+</Chip>
+`;

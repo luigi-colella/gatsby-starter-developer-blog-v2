@@ -1,0 +1,19 @@
+@import (reference) '../../style/index.less';
+
+.heading {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    h1 {
+        margin: @margin-zero;
+    }
+}
+
+.cover {
+    float: left;
+    margin-left: @margin-medium;
+    width: 8%;
+    @media @mobile {
+        width: 25%;
+    }
+}

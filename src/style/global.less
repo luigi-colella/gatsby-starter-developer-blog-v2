@@ -1,0 +1,59 @@
+@import (reference) './index.less';
+
+/* Font */
+
+@font-face {
+    font-family: 'CustomFont';
+    font-weight: normal;
+    src: url("./fonts/Lato/Lato-Regular.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Roboto-Mono';
+    font-weight: normal;
+    font-display: swap;
+    src: url("./fonts/RobotoMono/RobotoMono-Regular.ttf") format("opentype");
+}
+
+/* HTML elements */
+
+body {
+    font-family: "CustomFont",
+        -system-ui, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Helvetica,
+        Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+    font-size: @font-size * 1.2;
+    background-color: @theme-color;
+    background-image: @texture;
+    color: @theme-text;
+    margin: @margin-zero;
+}
+
+.heading(h1, @font-size * 3);
+.heading(h2, @font-size * 2.5);
+.heading(h3, @font-size * 2);
+.heading(h4, @font-size * 1.5);
+
+h1, h2, h3, h4, h5, h6 {
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: @theme-text;
+    margin: @margin-zero;
+    padding: @padding-zero;
+    transition: color @transition-time;
+    &:hover {
+        color: @theme-title;
+        cursor: pointer;
+    }
+}

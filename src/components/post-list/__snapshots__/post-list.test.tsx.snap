@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post List component matches snapshot 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="post"
+    key="article #1"
+  >
+    <div
+      className="cover"
+    >
+      <mockConstructor
+        to="/article-1-path/"
+      >
+        <Image
+          Tag="div"
+          alt="article #1"
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
+            Object {
+              "aspectRatio": 1.7,
+              "sizes": "(max-width: 600px) 100vw, 600px",
+              "src": "/static/da8d0fc0af7f0d310517048e303b3fcf/a5a41/preview.jpg",
+              "srcSet": "/static/da8d0fc0af7f0d310517048e303b3fcf/a5a41/preview.jpg",
+            }
+          }
+          loading="lazy"
+          title="article #1"
+        />
+      </mockConstructor>
+    </div>
+    <div
+      className="content "
+    >
+      <mockConstructor
+        to="/article-1-path/"
+      >
+        <label>
+          2019-02-13
+        </label>
+        <h3>
+          article #1
+        </h3>
+        <p>
+          excerpt of the article 1
+        </p>
+      </mockConstructor>
+      <TagList
+        tags={
+          Array [
+            "javascript",
+            "nodejs",
+            "angular",
+            "react",
+          ]
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="post"
+    key="article #2"
+  >
+    <div
+      className="cover"
+    >
+      <mockConstructor
+        to="/article-2-path/"
+      >
+        <Image
+          Tag="div"
+          alt="article #2"
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
+            Object {
+              "aspectRatio": 1.7,
+              "sizes": "(max-width: 600px) 100vw, 600px",
+              "src": "/static/da8d0fc0af7f0d310517048e303b3fcf/a5a41/preview.jpg",
+              "srcSet": "/static/da8d0fc0af7f0d310517048e303b3fcf/a5a41/preview.jpg",
+            }
+          }
+          loading="lazy"
+          title="article #2"
+        />
+      </mockConstructor>
+    </div>
+    <div
+      className="content "
+    >
+      <mockConstructor
+        to="/article-2-path/"
+      >
+        <h3>
+          article #2
+        </h3>
+        <p>
+          excerpt of the article 2
+        </p>
+      </mockConstructor>
+      <TagList
+        tags={
+          Array [
+            "javascript",
+            "laravel",
+            "nodejs",
+            "angular",
+          ]
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

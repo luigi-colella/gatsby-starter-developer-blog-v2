@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post template matches snapshot 1`] = `
+<Layout
+  className="layout"
+  showHeader={true}
+  title=""
+>
+  <SEO
+    contentType="article"
+    description="excerpt for the main post"
+    imageUrl="/static/da8d0fc0af7f0d310517048e303b3fcf/a5a41/preview.jpg"
+    keywords={
+      Array [
+        "angular",
+        "javascript",
+      ]
+    }
+    path="url-to-the-main-post"
+    title="main-post"
+    translations={
+      Array [
+        Object {
+          "hreflang": "it",
+          "path": "/it/version-of-main-post",
+        },
+        Object {
+          "hreflang": "en",
+          "path": "/en/version-of-main-post",
+        },
+      ]
+    }
+  />
+  <Heading
+    cover={
+      Object {
+        "aspectRatio": 1.7,
+        "sizes": "(max-width: 600px) 100vw, 600px",
+        "src": "/static/da8d0fc0af7f0d310517048e303b3fcf/a5a41/preview.jpg",
+        "srcSet": "/static/da8d0fc0af7f0d310517048e303b3fcf/a5a41/preview.jpg",
+      }
+    }
+    coverTitle="excerpt for the main post"
+    tags={
+      Array [
+        "angular",
+        "javascript",
+      ]
+    }
+    title="main-post"
+  />
+  <div
+    className="content"
+  >
+    <ArticleHeading
+      date="2019-07-23"
+      excerpt="excerpt for the main post"
+      time={6}
+      translations={
+        Array [
+          Object {
+            "hreflang": "it",
+            "path": "/it/version-of-main-post",
+          },
+          Object {
+            "hreflang": "en",
+            "path": "/en/version-of-main-post",
+          },
+        ]
+      }
+    />
+    <Article
+      html="<div><h2>Sub title</h2><p>Article paragraph</p></div>"
+    />
+    <Share
+      pageCanonicalUrl="https://lgcolella.github.io/gatsby-starter-developer-blog-v2/url-to-the-main-post/"
+      title="main-post"
+    />
+    <SuggestedPosts
+      posts={Array []}
+    />
+  </div>
+</Layout>
+`;

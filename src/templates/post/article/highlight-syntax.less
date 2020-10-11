@@ -1,0 +1,59 @@
+
+@import (reference) '../../../style/index.less';
+
+.language-label-colors (@language, @background, @text: @theme-text) {
+    @selector: ~'.gatsby-highlight[data-language=@{language}]';
+    @{selector} {
+        &::before {
+            background-color: @background;
+            color: @text;
+        }
+        pre {
+            border-color: @background;
+        }
+    }
+}
+
+.gatsby-highlight {
+    position: relative;
+    font-size: inherit;
+    &::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: @padding-small / 2 @padding-zero;
+        content: attr(data-language);
+        text-indent: 15px;
+        background-color: @post-highlight;
+        color: @post-highlight-text;
+    }
+    &[data-language="text"], &[data-language="none"] {
+        &::before {
+            display: none;
+        }
+        pre {
+            padding-top: @padding-medium;
+        }
+    }
+    pre {
+        font-family: 'Roboto-Mono', 'Andale Mono', 'Ubuntu Mono', monospace;
+        font-size: @font-size * 0.9;
+        overflow-x: auto;
+        overflow-y: hidden;
+        padding-top: @padding-medium * 2.5;
+        background-color: @post-code;
+        border: 1px solid @post-code-border;
+        code {
+            font-family: inherit;
+            line-height: 1.25em;
+            background-color: inherit;
+        }
+    }
+}
+
+.language-label-colors('html', #e34c26);
+.language-label-colors('css', #563d7c);
+.language-label-colors('javascript', #efbb35, #000000);
+.language-label-colors('typescript', #2b7489);
+.language-label-colors('php', #4F5D95);

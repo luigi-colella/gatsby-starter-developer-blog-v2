@@ -1,0 +1,279 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post > Article Heading component matches snapshot with all props 1`] = `
+<ArticleHeading
+  date="2019-03-20"
+  excerpt="Excerpt of the article"
+  time={6}
+  translations={
+    Array [
+      Object {
+        "hreflang": "en",
+        "path": "en/alternative-version",
+      },
+      Object {
+        "hreflang": "it",
+        "path": "it/alternative-version",
+      },
+    ]
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="excerpt"
+    >
+      <p>
+        Excerpt of the article
+      </p>
+    </div>
+    <label>
+      <strong>
+        <FaRegCalendarAlt>
+          <IconBase
+            attr={
+              Object {
+                "viewBox": "0 0 448 512",
+              }
+            }
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 448 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"
+                key="0"
+              />
+            </svg>
+          </IconBase>
+        </FaRegCalendarAlt>
+         
+        Date
+        :
+         
+      </strong>
+      <span>
+        2019-03-20
+      </span>
+    </label>
+    <label>
+      <strong>
+        <FaRegClock>
+          <IconBase
+            attr={
+              Object {
+                "viewBox": "0 0 512 512",
+              }
+            }
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"
+                key="0"
+              />
+            </svg>
+          </IconBase>
+        </FaRegClock>
+         
+        Time to read
+        :
+         
+      </strong>
+      <span>
+        6
+        m
+      </span>
+    </label>
+    <label>
+      <strong>
+        <MdTranslate>
+          <IconBase
+            attr={
+              Object {
+                "viewBox": "0 0 24 24",
+              }
+            }
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"
+                key="0"
+              />
+            </svg>
+          </IconBase>
+        </MdTranslate>
+         
+        Translated in
+        :
+         
+      </strong>
+      <span
+        key="en"
+      >
+        <mockConstructor
+          to="en/alternative-version"
+        >
+          <a
+            href="en/alternative-version"
+          >
+            English
+          </a>
+        </mockConstructor>
+        , 
+      </span>
+      <span
+        key="it"
+      >
+        <mockConstructor
+          to="it/alternative-version"
+        >
+          <a
+            href="it/alternative-version"
+          >
+            Italian
+          </a>
+        </mockConstructor>
+      </span>
+    </label>
+  </div>
+</ArticleHeading>
+`;
+
+exports[`Post > Article Heading component matches snapshot with minimal props 1`] = `
+<ArticleHeading
+  date="2019-03-20"
+  excerpt="Excerpt of the article"
+  time={6}
+>
+  <div
+    className="container"
+  >
+    <div
+      className="excerpt"
+    >
+      <p>
+        Excerpt of the article
+      </p>
+    </div>
+    <label>
+      <strong>
+        <FaRegCalendarAlt>
+          <IconBase
+            attr={
+              Object {
+                "viewBox": "0 0 448 512",
+              }
+            }
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 448 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"
+                key="0"
+              />
+            </svg>
+          </IconBase>
+        </FaRegCalendarAlt>
+         
+        Date
+        :
+         
+      </strong>
+      <span>
+        2019-03-20
+      </span>
+    </label>
+    <label>
+      <strong>
+        <FaRegClock>
+          <IconBase
+            attr={
+              Object {
+                "viewBox": "0 0 512 512",
+              }
+            }
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"
+                key="0"
+              />
+            </svg>
+          </IconBase>
+        </FaRegClock>
+         
+        Time to read
+        :
+         
+      </strong>
+      <span>
+        6
+        m
+      </span>
+    </label>
+  </div>
+</ArticleHeading>
+`;

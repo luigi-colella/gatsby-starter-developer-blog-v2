@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tag List component matches snapshot 1`] = `
+<TagList
+  tags={
+    Array [
+      "nodejs",
+      "angular",
+      "laravel",
+      "electron",
+      "nodejs",
+    ]
+  }
+>
+  <div
+    className="tags"
+  >
+    <mockConstructor
+      key="angular"
+      to="/tag/angular/"
+    >
+      <a
+        href="/tag/angular/"
+      >
+        <Chip
+          hoverEffect={true}
+        >
+          <label
+            className="chip_with_hover "
+          >
+            Angular
+          </label>
+        </Chip>
+      </a>
+    </mockConstructor>
+    <mockConstructor
+      key="electron"
+      to="/tag/electron/"
+    >
+      <a
+        href="/tag/electron/"
+      >
+        <Chip
+          hoverEffect={true}
+        >
+          <label
+            className="chip_with_hover "
+          >
+            Electron
+          </label>
+        </Chip>
+      </a>
+    </mockConstructor>
+    <mockConstructor
+      key="laravel"
+      to="/tag/laravel/"
+    >
+      <a
+        href="/tag/laravel/"
+      >
+        <Chip
+          hoverEffect={true}
+        >
+          <label
+            className="chip_with_hover "
+          >
+            Laravel
+          </label>
+        </Chip>
+      </a>
+    </mockConstructor>
+    <mockConstructor
+      key="nodejs"
+      to="/tag/nodejs/"
+    >
+      <a
+        href="/tag/nodejs/"
+      >
+        <Chip
+          hoverEffect={true}
+        >
+          <label
+            className="chip_with_hover "
+          >
+            Node.js
+          </label>
+        </Chip>
+      </a>
+    </mockConstructor>
+  </div>
+</TagList>
+`;

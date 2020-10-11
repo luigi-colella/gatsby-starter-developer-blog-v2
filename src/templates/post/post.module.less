@@ -1,0 +1,18 @@
+@import (reference) '../../style/index.less';
+
+.layout {
+    width: 100%;
+    @media @tablet, @desktop {
+        margin-top: 0px !important;
+    }
+}
+
+.content {
+    box-sizing: border-box;
+    margin: auto;
+    padding: @padding-medium;
+    width: 80%;
+    @media @mobile {
+        width: 100%;
+    }
+}

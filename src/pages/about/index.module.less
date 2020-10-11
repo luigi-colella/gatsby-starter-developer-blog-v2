@@ -1,0 +1,109 @@
+@import (reference) '../../style/index.less';
+
+.container {
+    .flex-center();
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: @margin-medium * 4;
+    width: 100%;
+    h1, h2, h3, p {
+        margin-top: @margin-small;
+        margin-right: auto;
+        margin-bottom: @margin-small;
+        text-align: left;
+    }
+    h3 {
+        font-size: @font-size * 1.4em;
+    }
+    b {
+        color: @theme-title;
+        font-weight: normal;
+    }
+    @media @mobile {
+        flex-direction: column;
+        padding: @padding-small @padding-zero;
+    }
+}
+
+.col {
+    .flex-center();
+    padding: @padding-small;
+    flex-direction: column;
+    box-sizing: border-box;
+    > div {
+        margin: @margin-medium @margin-zero;
+        width: 100%;
+    }
+    @media @mobile {
+        display: block;
+        float: right;
+        padding: @padding-zero;
+        width: 100%;
+    }
+}
+
+.col_left {
+    .col();
+    flex: 0 0 25%;
+    margin-right: auto;
+    margin-left: @margin-zero;
+    padding-right: @padding-medium;
+    width: 25%;
+}
+
+.col_right {
+    .col();
+    flex: 0 0 75%;
+    margin-right: @margin-zero;
+    margin-left: auto;
+    padding-right: @padding-medium;
+    width: 75%;
+}
+
+.col_summary {
+    .col_left();
+    flex-basis: 65%;
+    width: 65%;
+}
+
+.col_photo {
+    .col_right();
+    flex-basis: 35%;
+    width: 35%;
+    margin: auto auto auto @margin-zero;
+}
+
+.card {
+    margin: @margin-medium @margin-zero;
+    padding: @padding-small @padding-zero;
+}
+
+@icon-height: 25px;
+
+.chip {
+    height: @icon-height;
+    margin: @margin-small @margin-medium @margin-small @margin-zero;
+    line-height: @icon-height;
+    padding: @padding-small / 1.5 @padding-small;
+    svg {
+        float: left;
+        height: @icon-height;
+        margin-right: @margin-small;
+        width: @icon-height;
+    }
+}
+
+.chip_link {
+    display: inline-block;
+    margin-right: @margin-medium;
+    transition: @transition-time color, @transition-time / 2 transform;
+    &:hover {
+        color: @theme-title;
+        transform: translateY(-5px);
+    }
+}
+
+.button_redirect {
+    border-width: 2px;
+    padding: @padding-medium;
+}

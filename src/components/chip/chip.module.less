@@ -1,0 +1,23 @@
+@import (reference) '../../style/index.less';
+
+.chip {
+  display: inline-block;
+  background-color: @label-theme;
+  border: 1px dashed @label-text;
+  border-radius: @border-radius-medium;
+  box-shadow: @label-box-shadow;
+  color: @label-text;
+  margin: @margin-zero;
+  padding: @padding-small / 2 @padding-small * 2;
+}
+
+.chip_with_hover {
+  .chip();
+  border-style: solid;
+  transition: @transition-time background-color;
+  cursor: inherit;
+  &:hover {
+    background-color: @label-hover;
+    color: @label-hover-text;
+  }
+}

@@ -1,0 +1,48 @@
+@import (reference) '../../style/index.less';
+
+.card {
+    .flex-center();
+    border-bottom: 2px solid @theme-title;
+    box-sizing: border-box;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    height: auto;
+    justify-content: left;
+    margin-bottom: @margin-medium;
+    padding: @padding-medium @padding-zero @padding-medium * 2 @padding-zero;
+    width: 100%;
+    h3 {
+        margin: @margin-zero;
+        text-align: left;
+    }
+    p {
+        text-align: left;
+        padding-right: @padding-medium;
+    }
+    :hover {
+        h3, p {
+            text-decoration: underline;
+        }
+    }
+    @media @mobile {
+        flex-direction: column;
+        margin: @margin-zero;
+        padding: @padding-medium @padding-zero;
+        p {
+            padding-right: @padding-zero;
+        }
+    }
+}
+
+.cover {
+    @width: 10%;
+
+    min-width: @width;
+    margin-left: auto;
+    @media @mobile {
+        margin-right: auto;
+        margin-bottom: @margin-medium;
+        margin-left: @margin-zero;
+        min-width: @width * 2.5;
+    }
+}

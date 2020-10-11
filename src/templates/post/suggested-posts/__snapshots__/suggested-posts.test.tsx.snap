@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post > Suggsted Posts component matches snapshot 1`] = `
+<div>
+  <PostList
+    contentClassName="content"
+    posts={
+      Array [
+        Object {
+          "node": Object {
+            "fileAbsolutePath": "C:/Documents/path-to-the-article-1",
+            "frontmatter": Object {
+              "cover": Object {
+                "childImageSharp": Object {
+                  "fluid": Object {
+                    "aspectRatio": 1.7,
+                    "sizes": "(max-width: 600px) 100vw, 600px",
+                    "src": "/static/da8d0fc0af7f0d310517048e303b3fcf/a5a41/preview.jpg",
+                    "srcSet": "/static/da8d0fc0af7f0d310517048e303b3fcf/a5a41/preview.jpg",
+                  },
+                },
+              },
+              "excerpt": "an excertp for the article #1",
+              "path": "path-to-the-article-1",
+              "tags": Array [
+                "angular",
+                "javascript",
+                "laravel",
+              ],
+              "title": "Title of article #1",
+            },
+          },
+        },
+        Object {
+          "node": Object {
+            "fileAbsolutePath": "C:/Documents/path-to-the-article-2",
+            "frontmatter": Object {
+              "cover": Object {
+                "childImageSharp": Object {
+                  "fluid": Object {
+                    "aspectRatio": 1.7,
+                    "sizes": "(max-width: 600px) 100vw, 600px",
+                    "src": "/static/da8d0fc0af7f0d310517048e303b3fcf/a5a41/preview.jpg",
+                    "srcSet": "/static/da8d0fc0af7f0d310517048e303b3fcf/a5a41/preview.jpg",
+                  },
+                },
+              },
+              "excerpt": "an excertp for the article #2",
+              "path": "path-to-the-article-2",
+              "tags": Array [
+                "nodejs",
+                "angular",
+              ],
+              "title": "Title of article #2",
+            },
+          },
+        },
+      ]
+    }
+  />
+</div>
+`;

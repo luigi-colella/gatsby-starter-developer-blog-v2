@@ -1,0 +1,54 @@
+
+.flex-center () {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.frame-small () {
+    padding: @padding-small;
+    margin: @margin-small;
+}
+
+.frame-medium () {
+    padding: @padding-medium;
+    margin: @margin-medium;
+}
+
+.heading (@selector, @size, @color: @theme-title) {
+    @{selector} {
+        text-align: center;
+        font-size: @size;
+        font-weight: bold;
+        color: @color;
+        @media @mobile, @tablet {
+            font-size: @size / 1.5;
+        }
+    }
+}
+
+.underline-animation-base (@color, @height: 2px, @margin-top: 0px) {
+    &::after {
+        content: ' ';
+        display: block;
+        width: 0px;
+        height: @height;
+        margin-top: @margin-top;
+        background-color: @color;
+        transition: width @transition-time;
+    }
+}
+
+.underline-animation-hover {
+    &::after {
+        width: 100%;
+    }
+}
+
+.underline-animation-complete (@rest...) {
+    .underline-animation-base(@rest...);
+    &:hover {
+        .underline-animation-hover();
+    }
+}

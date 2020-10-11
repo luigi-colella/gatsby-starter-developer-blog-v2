@@ -1,0 +1,19 @@
+@import (reference) '../../../style/index.less';
+
+.container {
+    margin: @margin-medium @margin-zero;
+    label {
+        display: block;
+        a {
+            color: @post-highlight;
+            text-transform: capitalize;
+            transition: @transition-time color;
+            text-decoration: underline;
+        }
+    }
+}
+
+.excerpt {
+    color: @post-highlight;
+    font-size: @font-size * 1.3;
+}

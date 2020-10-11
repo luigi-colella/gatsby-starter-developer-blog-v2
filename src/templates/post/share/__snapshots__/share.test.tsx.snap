@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post > Share component matches snapshot 1`] = `
+<div>
+  <div
+    className="container"
+  >
+    <ForwardRef
+      url="/path/canonical-url"
+      windowHeight={400}
+      windowWidth={550}
+    >
+      <Chip
+        className="chip"
+        hoverEffect={true}
+      >
+        <span>
+          <FaFacebookF
+            className="icon"
+          />
+          Facebook
+        </span>
+      </Chip>
+    </ForwardRef>
+    <ForwardRef
+      title="Title of the page"
+      url="/path/canonical-url"
+      windowHeight={400}
+      windowWidth={550}
+    >
+      <Chip
+        className="chip"
+        hoverEffect={true}
+      >
+        <span>
+          <FaTwitter
+            className="icon"
+          />
+          Twitter
+        </span>
+      </Chip>
+    </ForwardRef>
+    <ForwardRef
+      url="/path/canonical-url"
+      windowHeight={600}
+      windowWidth={750}
+    >
+      <Chip
+        className="chip"
+        hoverEffect={true}
+      >
+        <span>
+          <FaLinkedinIn
+            className="icon"
+          />
+          LinkedIn
+        </span>
+      </Chip>
+    </ForwardRef>
+    <ForwardRef
+      title="Title of the page"
+      url="/path/canonical-url"
+      windowHeight={460}
+      windowWidth={660}
+    >
+      <Chip
+        className="chip"
+        hoverEffect={true}
+      >
+        <span>
+          <FaRedditAlien
+            className="icon"
+          />
+          Reddit
+        </span>
+      </Chip>
+    </ForwardRef>
+    <ForwardRef
+      onClick={[Function]}
+      openWindow={false}
+      separator=" "
+      subject="Title of the page"
+      url="/path/canonical-url"
+    >
+      <Chip
+        className="chip"
+        hoverEffect={true}
+      >
+        <span>
+          <FaEnvelope
+            className="icon"
+          />
+          Email
+        </span>
+      </Chip>
+    </ForwardRef>
+  </div>
+</div>
+`;

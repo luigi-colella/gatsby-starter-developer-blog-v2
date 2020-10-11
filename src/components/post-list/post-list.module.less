@@ -1,0 +1,61 @@
+@import (reference) '../../style/index.less';
+
+.container {
+    .flex-center();
+    flex-direction: column;
+    width: 100%;
+}
+
+.post {
+    .flex-center();
+    flex-wrap: initial;
+    flex-direction: row;
+    margin-top: @margin-medium * 2;
+    margin-bottom: @margin-medium * 2;
+    width: 100%;
+    @media @mobile {
+        flex-direction: column;
+    }
+}
+
+.cover {
+    overflow: hidden;
+    width: 40%;
+    min-width: 40%;
+    box-shadow: @box-shadow-cover;
+    border: 1px solid @theme-text;
+    @media @mobile {
+        min-width: 100%;
+        width: 100%;
+    }
+    @media @desktop {
+        & > a > div {
+            transition: transform @transition-time;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+.content {
+    padding-left: @padding-medium * 4;
+    h3 {
+        margin: @margin-zero;
+        text-align: left;
+        text-shadow: @text-shadow-title;
+    }
+    p {
+        margin: @margin-small @margin-zero;
+        padding: @padding-small @padding-zero;
+    }
+    @media @mobile {
+        padding-top: @padding-medium;
+        padding-left: @padding-zero;
+    }
+    @media @desktop {
+        h3 {
+            .underline-animation-complete(@theme-title, 3px, @margin-small);
+        }
+    }
+}

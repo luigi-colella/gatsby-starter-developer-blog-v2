@@ -1,0 +1,90 @@
+@import (reference) '../../../style/index.less';
+
+.container {
+  article {
+    overflow-x: auto;
+    line-height: 1.6;
+    > * {
+      &:first-child {
+        margin-top: @margin-zero;
+      }
+      &:last-child {
+        margin-bottom: @margin-zero;
+      }
+    }
+  }
+  h1, h2, h3, h4, h5, h6 {
+    text-align: left;
+  }
+  a {
+    color: @post-highlight;
+    text-decoration: underline;
+    word-break: break-all;
+    code {
+      text-decoration: inherit;
+    }
+  }
+  figcaption {
+    max-width: 1000px;
+    margin: auto;
+  }
+  iframe {
+    display: block;
+    margin: auto;
+    @media @mobile {
+      max-width: 300px;
+    }
+  }
+  img {
+    max-width: 100%;
+  }
+  p {
+    > strong {
+      color: @post-bold-text;
+    }
+    > em {
+      color: @post-emphasized-text;
+    }
+  }
+  table {
+    margin: auto;
+    border-spacing: 0px;
+    td, th {
+      padding: @padding-small @padding-medium;
+      border: 1px solid @post-highlight;
+    }
+    th {
+      text-align: center;
+    }
+    thead {
+      background-color: @post-highlight;
+      color: @post-highlight-text;
+      th, td {
+        border-width: 1px 1px 0px 0px;
+        &:first-child {
+          border-left-width: 1px;
+        }
+      }
+    }
+    tbody {
+      tr {
+        th, td {
+          border-width: 1px 1px 0px 0px;
+          &:first-child {
+            border-left-width: 1px;
+          }
+        }
+        &:last-child th, &:last-child td {
+          border-bottom-width: 1px;
+        }
+      }
+    }
+  }
+  :not(pre) > code[class*="language-"] {
+    font-family: 'Roboto-Mono', 'Andale Mono', 'Ubuntu Mono', monospace;
+    padding: .1em;
+    border-radius: @border-radius-small;
+    background-color: @post-highlight;
+    color: @post-highlight-text;
+  }
+}

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post > Article component matches snapshot 1`] = `
+<Article
+  html="<div><h2>Sub title</h2><p>Text paragraph</p></div>"
+>
+  <div
+    className="container"
+  >
+    <article
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<div><h2>Sub title</h2><p>Text paragraph</p></div>",
+        }
+      }
+    />
+  </div>
+</Article>
+`;

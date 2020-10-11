@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post > Heading component matches snapshot 1`] = `
+<div
+  className="container"
+>
+  <Image
+    Tag="div"
+    alt="Title of the post"
+    durationFadeIn={500}
+    fadeIn={true}
+    fluid={
+      Object {
+        "aspectRatio": 1.7,
+        "sizes": "(max-width: 600px) 100vw, 600px",
+        "src": "/static/da8d0fc0af7f0d310517048e303b3fcf/a5a41/preview.jpg",
+        "srcSet": "/static/da8d0fc0af7f0d310517048e303b3fcf/a5a41/preview.jpg",
+      }
+    }
+    loading="lazy"
+    title="Title of the cover"
+  />
+  <div
+    className="title"
+  >
+    <h1>
+      Title of the post
+    </h1>
+    <TagList
+      tags={
+        Array [
+          "angular",
+          "electron",
+          "nodejs",
+        ]
+      }
+    />
+  </div>
+</div>
+`;

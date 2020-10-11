@@ -1,0 +1,283 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component matches snapshot 1`] = `
+<div
+  className="container visibleContainer"
+>
+  <div
+    className="innerContainer"
+  >
+    <div
+      className="title"
+    >
+      <mockConstructor
+        to="/"
+      >
+        <h3>
+          Vincent van Gogh
+        </h3>
+      </mockConstructor>
+      <button>
+        <FaBars
+          onClick={[Function]}
+          size="30"
+        />
+      </button>
+    </div>
+    <div
+      className="pages collapsedMenu"
+    >
+      <ul>
+        <li>
+          <mockConstructor
+            to="/blog/"
+          >
+            Blog
+          </mockConstructor>
+        </li>
+        <li>
+          <mockConstructor
+            to="/tag/"
+          >
+            Tags
+          </mockConstructor>
+        </li>
+        <li>
+          <mockConstructor
+            to="/about/"
+          >
+            About
+          </mockConstructor>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="social collapsedMenu"
+    >
+      <ul>
+        <li>
+          <a
+            href="https://github.com/lgcolella/gatsby-starter-developer-blog-v2"
+            rel="nofollow noopener noreferrer"
+            target="_blank"
+          >
+            <FaGithub
+              size="30"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="#"
+            rel="nofollow noopener noreferrer"
+            target="_blank"
+          >
+            <FaLinkedin
+              size="30"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="#"
+            rel="nofollow noopener noreferrer"
+            target="_blank"
+          >
+            <FaRss
+              size="30"
+            />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Header component matches snapshot whether it is fixed or not 1`] = `
+<div
+  className="container hiddenContainer"
+>
+  <div
+    className="innerContainer"
+  >
+    <div
+      className="title"
+    >
+      <mockConstructor
+        to="/"
+      >
+        <h3>
+          Vincent van Gogh
+        </h3>
+      </mockConstructor>
+      <button>
+        <FaBars
+          onClick={[Function]}
+          size="30"
+        />
+      </button>
+    </div>
+    <div
+      className="pages collapsedMenu"
+    >
+      <ul>
+        <li>
+          <mockConstructor
+            to="/blog/"
+          >
+            Blog
+          </mockConstructor>
+        </li>
+        <li>
+          <mockConstructor
+            to="/tag/"
+          >
+            Tags
+          </mockConstructor>
+        </li>
+        <li>
+          <mockConstructor
+            to="/about/"
+          >
+            About
+          </mockConstructor>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="social collapsedMenu"
+    >
+      <ul>
+        <li>
+          <a
+            href="https://github.com/lgcolella/gatsby-starter-developer-blog-v2"
+            rel="nofollow noopener noreferrer"
+            target="_blank"
+          >
+            <FaGithub
+              size="30"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="#"
+            rel="nofollow noopener noreferrer"
+            target="_blank"
+          >
+            <FaLinkedin
+              size="30"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="#"
+            rel="nofollow noopener noreferrer"
+            target="_blank"
+          >
+            <FaRss
+              size="30"
+            />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Header component matches snapshot whether it is fixed or not 2`] = `
+<div
+  className="container visibleContainer"
+>
+  <div
+    className="innerContainer"
+  >
+    <div
+      className="title"
+    >
+      <mockConstructor
+        to="/"
+      >
+        <h3>
+          Vincent van Gogh
+        </h3>
+      </mockConstructor>
+      <button>
+        <FaBars
+          onClick={[Function]}
+          size="30"
+        />
+      </button>
+    </div>
+    <div
+      className="pages collapsedMenu"
+    >
+      <ul>
+        <li>
+          <mockConstructor
+            to="/blog/"
+          >
+            Blog
+          </mockConstructor>
+        </li>
+        <li>
+          <mockConstructor
+            to="/tag/"
+          >
+            Tags
+          </mockConstructor>
+        </li>
+        <li>
+          <mockConstructor
+            to="/about/"
+          >
+            About
+          </mockConstructor>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="social collapsedMenu"
+    >
+      <ul>
+        <li>
+          <a
+            href="https://github.com/lgcolella/gatsby-starter-developer-blog-v2"
+            rel="nofollow noopener noreferrer"
+            target="_blank"
+          >
+            <FaGithub
+              size="30"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="#"
+            rel="nofollow noopener noreferrer"
+            target="_blank"
+          >
+            <FaLinkedin
+              size="30"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="#"
+            rel="nofollow noopener noreferrer"
+            target="_blank"
+          >
+            <FaRss
+              size="30"
+            />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

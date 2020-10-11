@@ -1,0 +1,60 @@
+@import (reference) '../style/index.less';
+
+.container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: @padding-medium @padding-medium * 2;
+}
+
+.heading {
+    .flex-center();
+    flex-direction: column;
+    ul {
+        display: block;
+        list-style: none;
+        margin: @margin-zero;
+        padding: @padding-zero;
+        li {
+            float: left;
+            margin: @margin-zero @margin-medium;
+            text-transform: uppercase;
+            a {
+                display: inline-block;
+                .underline-animation-complete(@theme-title, 2px, 5px);
+                transition: @transition-time color;
+                &:hover {
+                    color: @theme-title;
+                }
+                svg {
+                    margin-right: @margin-small;
+                    vertical-align: middle;
+                }
+                span {
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+    h1 {
+        font-size: @font-size * 6;
+        margin: @margin-medium * 3 @margin-zero;
+        letter-spacing: .05em;
+        text-shadow: @text-shadow-title;
+    }
+    h2 {
+        margin: @margin-zero;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+        text-shadow: @text-shadow-title;
+    }
+    @media @mobile {
+        h1 {
+            font-size: @font-size * 4;
+        }
+    }
+}

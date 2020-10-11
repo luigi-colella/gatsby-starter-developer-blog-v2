@@ -1,0 +1,26 @@
+@import (reference) '../../../style/index.less';
+
+.container {
+    position: relative;
+    width: 100%;
+    img, picture {
+        opacity: .2;
+    }
+}
+
+.title {
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+    h1 {
+        margin: @margin-small @margin-medium;
+        text-shadow: @text-shadow-title;
+        color: @theme-text;
+    }
+    @media @tablet, @desktop {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

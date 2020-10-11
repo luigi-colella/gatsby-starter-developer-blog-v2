@@ -1,0 +1,26 @@
+@import (reference) '../../style/index.less';
+
+.container {
+    .flex-center();
+    margin-top: @margin-medium;
+}
+
+.button {
+    @media @mobile {
+        margin: auto;
+        margin-bottom: @margin-small;
+        width: 100%;
+    }
+}
+
+.buttonLeft {
+    .button();
+    margin-right: auto;
+    margin-left: @margin-zero;
+}
+
+.buttonRight {
+    .button();
+    margin-left: auto;
+    margin-right: @margin-zero;
+}
