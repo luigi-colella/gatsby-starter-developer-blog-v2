@@ -16,7 +16,6 @@ const TagList = ({ tags }: Props) => (
       .filter((tag, index) => index === tags.indexOf(tag)) // Remove duplicate values
       .sort()
       .map(tag => {
-        console.log(tag)
         return (
           <Link to={Utils.resolveUrl(Config.pages.tag, tag)} key={tag}>
             <Chip hoverEffect={true}>
