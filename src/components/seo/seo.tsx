@@ -22,6 +22,7 @@ export const PureSEO = ({
   let pageUrl = Utils.resolveUrl(Config.siteUrl, Config.pathPrefix, path)
   let metaImageUrl = Utils.resolveUrl(
     Config.siteUrl,
+    Config.pathPrefix,
     imageUrl ? imageUrl : queryData.file.childImageSharp.fixed.src
   )
 

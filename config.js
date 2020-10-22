@@ -1,7 +1,7 @@
 
 module.exports = {
-  pathPrefix: '',
-  siteUrl: 'https://lgcolella.github.io/gatsby-starter-developer-blog-v2',
+  pathPrefix: '/gatsby-starter-developer-blog-v2',
+  siteUrl: 'https://lgcolella.github.io',
   siteTitle: 'Vincent van Gogh',
   siteDescription: 'Welcome you on my blog!',
   siteKeywords: ['developer', 'development', 'web', 'javascript', 'frontend', 'backend', 'fullstack'],
