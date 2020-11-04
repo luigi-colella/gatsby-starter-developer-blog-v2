@@ -6,15 +6,11 @@ export default {
   about: {
     pageTitle: 'About',
     pageDescription: 'A brief summary on who I am and what I do',
-    summaryHeading: `Hi, I'm Vincent!`,
-    summaryParagraph1: `You're welcome on my personal site!`,
-    summaryParagraph2: `I'm a full stack developer.`,
-    summaryParagraph3: `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
-    summaryParagraph4: `Have a good navigation!`,
+    summaryHeading: `Hi, I'm Aju Tamang`,
+    summaryParagraph1: `Hi there, I’m a freshman CS student from Nepal who is interested in Cloud + Infosec. Apart from Academic, I am a Cloud Developer Apprentice at Techkraft.`,
+    summaryParagraph2: `The main motive of my blog is to share insightful contents that I had learned and experienced in the tech industry. 
+    I love sharing knowledge and being a tech speaker at different programs. 
+    I mainly focus on channeling my skills into open source projects and sharing it with the community by mentoring, creating POCS, running workshops, writing blogs to help make the world a better and more developed place.`,
     skillsSectionHeading: `Main skills`,
     interestsSectionHeading: `Interests`,
     interestsSectionLabel1: 'SEO',

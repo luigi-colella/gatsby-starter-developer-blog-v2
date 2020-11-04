@@ -1,11 +1,11 @@
 
 module.exports = {
   pathPrefix: '/gatsby-starter-developer-blog-v2',
-  siteUrl: 'https://lgcolella.github.io',
-  siteTitle: 'Vincent van Gogh',
+  siteUrl: 'https://csaju.com',
+  siteTitle: 'Csaju',
   siteDescription: 'Welcome you on my blog!',
   siteKeywords: ['developer', 'development', 'web', 'javascript', 'frontend', 'backend', 'fullstack'],
-  author: 'Vincent van Gogh',
+  author: 'Aju Tamang',
   postsForArchivePage: 3,
   defaultLanguage: 'en',
   pages: {
@@ -16,7 +16,7 @@ module.exports = {
     archive: 'archive'
   },
   social: {
-    github: 'https://github.com/lgcolella/gatsby-starter-developer-blog-v2',
+    github: 'https://github.com/Aju100',
     linkedin: '#',
     rss: '#'
   }

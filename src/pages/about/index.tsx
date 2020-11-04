@@ -54,8 +54,6 @@ const About = ({ data: { profilePhoto } }: AboutProps) => {
             <h1>{Lang.pages.about.summaryHeading}</h1>
             <p>{Lang.pages.about.summaryParagraph1}</p>
             <p>{Lang.pages.about.summaryParagraph2}</p>
-            <p>{Lang.pages.about.summaryParagraph3}</p>
-            <p>{Lang.pages.about.summaryParagraph4}</p>
           </div>
           <div className={style.col_photo}>
             <Img fluid={profilePhoto.childImageSharp.fluid} />

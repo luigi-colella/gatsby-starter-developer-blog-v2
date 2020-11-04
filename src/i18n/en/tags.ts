@@ -4,6 +4,16 @@ export default {
     description:
       'Angular is an open source framework for building web applications.',
   },
+  azure:{
+    name: 'Azure',
+    description:
+    'Microsoft Azure, commonly referred to as Azure, is a cloud computing service created by Microsoft for building, testing, deploying, and managing applications and services through Microsoft-managed data centers.'
+  },
+  django:{
+    name: 'Django',
+    description:
+      'Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design',
+  },
   electron: {
     name: 'Electron',
     description:
