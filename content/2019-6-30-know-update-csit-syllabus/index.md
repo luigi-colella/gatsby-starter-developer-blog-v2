@@ -1,6 +1,6 @@
 ---
 title: Know updated CSIT syllabus
-date:
+date: 2019-06-30
 tags: []
 path: blog/know-updated-csit-syllabus/
 cover: ./csit.png

@@ -1,10 +1,10 @@
 ---
 title: 5 Important reasons why python is popular ?
-date:
+date: 2019-05-21
 tags: []
 path: blog/5-important-reasons-why-python-is-popular/
 cover: ./5-Reasons-why-python-is-popular.png
-excerpt: When you start first with a programming language, you don’t want to start with tough syntax and weird rules right. Then Python is the best option to start with your programming journey.
+excerpt: When you start first with a programming language, you don’t want to start with tough syntax and weird rules right. Then Python is the best option to start with your programming journey. As I said, it’s important to know the programming language. If you don’t know then you are missing something in this digital world.
 ---
 
 When you start first with a programming language, you don’t want to start with tough syntax and weird rules right. Then Python is the best option to start with your programming journey. As I said, it’s important to know the programming language. If you don’t know then you are missing something in this digital world.

@@ -1,6 +1,6 @@
 ---
 title: Django on Azure- Learn to deploy and scale 100% free
-date:
+date: 2020-10-15
 tags: ['django', 'azure']
 path: blog/django-on-azure-learn-to-deploy-and-scale-100-free
 cover: ./preview.png

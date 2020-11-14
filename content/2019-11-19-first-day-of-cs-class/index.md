@@ -1,6 +1,6 @@
 ---
 title: First day of my computer science class
-date:
+date: 2019-11-19
 tags: ['azure']
 path: blog/first-day-of-my-computer-science-class
 cover: ./preview.png

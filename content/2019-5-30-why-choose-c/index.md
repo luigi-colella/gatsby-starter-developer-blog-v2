@@ -1,6 +1,6 @@
 ---
 title: Why choose C ?
-date:
+date: 2019-05-39
 tags: []
 path: blog/why-choose-C/
 cover: ./whychoosec.png

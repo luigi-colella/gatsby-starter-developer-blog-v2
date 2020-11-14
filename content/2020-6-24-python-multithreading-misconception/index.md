@@ -1,6 +1,6 @@
 ---
 title: Python Multithreading misconception
-date:
+date: 2020-06-24
 tags: ['azure']
 path: blog/python-multithreading-misconception/
 cover: ./carbon.png

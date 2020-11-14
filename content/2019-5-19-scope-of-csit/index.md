@@ -1,10 +1,10 @@
 ---
 title: Scope of Bsc.CSIT in Nepal
-date:
+date: 2019-05-19
 tags: []
 path: blog/scope-of-bsc-csit-in-nepal/
 cover: ./preview.jpg
-excerpt: Hello Everyone, if you wanted to study computer science, make an awesome tech career in today’s world. Then you are in the right place.
+excerpt: Hello Everyone, if you wanted to study computer science, make an awesome tech career in today’s world. Then you are in the right place. I am sorry for those people who are not from Nepal. This article is mostly focused on Nepali students, wanted to make a tech career through an academic degree.
 ---
 
 Hello Everyone, if you wanted to study computer science, make an awesome tech career in today’s world. Then you are in the right place. I am sorry for those people who are not from Nepal. This article is mostly focused on Nepali students, wanted to make a tech career through an academic degree.

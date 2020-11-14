@@ -1,6 +1,6 @@
 ---
 title: TryHackMe - OWASP Top 10 writeup
-date:
+date: 2020-07-18
 tags: ['azure']
 path: blog/tryhackme-owasp-top-10-writeup/
 cover: ./carbon-1.png

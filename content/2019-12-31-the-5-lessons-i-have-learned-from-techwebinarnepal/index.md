@@ -1,6 +1,6 @@
 ---
 title: The 5 lessons I learned from techwebinarnepal
-date:
+date: 2019-12-31
 tags: ['vuejs']
 path: blog/the-5-lessons-I-learned-from-techwebinarnepal
 cover: ./techwebinarnepal.jpg

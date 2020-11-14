@@ -1,6 +1,6 @@
 ---
 title: Know your CSIT entrance syllabus
-date:
+date: 2019-05-30
 tags: []
 path: blog/know-your-csit-entrance-syllabus
 cover: ./preview.png

@@ -1,6 +1,6 @@
 ---
 title: Lightening talks on software development
-date:
+date: 2020-05-02
 tags: []
 path: blog/git-github-crash-course/
 cover: ./carbon.png

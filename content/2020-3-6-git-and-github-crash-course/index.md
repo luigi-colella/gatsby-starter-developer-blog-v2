@@ -1,6 +1,6 @@
 ---
 title: Git and Github Crash Course
-date:
+date: 2020-03-06
 tags: []
 path: blog/git-github-crash-course/
 cover: ./carbon.png

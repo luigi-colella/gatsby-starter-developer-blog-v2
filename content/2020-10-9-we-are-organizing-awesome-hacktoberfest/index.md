@@ -1,6 +1,6 @@
 ---
 title: We are organizing awesome hacktoberfest
-date:
+date: 2020-10-09
 tags: []
 path: blog/we-are-organizing-awesome-hacktoberfest/
 cover: ./hacktoberfest-1170x410.png

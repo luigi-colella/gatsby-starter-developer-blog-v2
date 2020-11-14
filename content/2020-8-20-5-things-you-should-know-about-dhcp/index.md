@@ -1,6 +1,6 @@
 ---
 title: 5 things you should know about DHCP
-date:
+date: 2020-08-20
 tags: []
 path: blog/5-things-you-should-know-about-dhcp/
 cover: ./5thingsyoushouldknowaboutdhcp.png

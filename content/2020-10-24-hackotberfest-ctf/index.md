@@ -1,10 +1,10 @@
 ---
 title: Hacktoberfest CTF Writeup
-date:
+date: 2020-10-24
 tags: []
 path: blog/hacktoberfest-ctf-writeup/
-cover: ./carbon.png
-excerpt: C is a high level and general-purpose programming language. C was developed at AT & T’s Bell Laboratories of the USA in 1972.
+cover: ./hacktoberfestctf.png
+excerpt: I would love to thanks all the participants and core team members for successfully hosting Hactoberfest CTF 2020. In this write-up, top players had been shared their writeups.
 ---
 
 I would love to thanks all the participants and core team members for successfully hosting Hactoberfest CTF 2020. In this write-up, top players had been shared their writeups.
@@ -29,7 +29,7 @@ Write-up:
 What I have is: hw1ui_r1ew3g_c4b3s_4ui3g_yja1jh_r43h4g.
 Looks like some weird jumbled letters, right?. As I have already face this kind of challenge earlier in other ctfs, I quickly visited https://rot13.com/ and pasted it there and got the flag at rot 11.
 
-<img src="./prabesh-1.png">
+<img src="./Gaius.png">
 
 As additional info, if you faced such jumbled letters while playing ctfs, it not necessary that it’s encoded with rot. It might also be a caesar cipher or something else.
 
@@ -317,7 +317,7 @@ So, let’s beat PHP
 
 The only thing we have is this: “7068702e30646179676f642e78797a”. What could this be? Of course, it’s some kind of encoded text. To decode it, we first need to find out which algorithm it is encoded with. To do so, just use any cipher identifier. I used boxentriq’s cipher identifier. From the analysis result, we get that the cipher used is hexadecimal. So let’s decode it. Again, you can use any hexadecimal decoder. I used cryptii’s hex decoder. After decoding, we get this: php.0daygod.xyz. Looks like a URL, right? Visiting the URL takes us to the site stating “WrestlePHP – Can you beat PHP?”.
 
-<img src="./wrestl-886x1024.png">
+<img src="./wrestle.png">
 Since I had already played such kinda ctf before, I had a rough idea of how to solve this one. Starting from the top of the code, the first if-else condition is checking if the user agent is “Yes, I am a human.”. If not, it would print “You are a bot, mate!” which can be seen at the bottom of the site. So I intercepted the request to the site with burp suite, changed the user agent value with “Yes, I am a human.” and forwarded it. In the browser, at the bottom of the site, we can see that the text “You are a bot, mate!” has changed into “Nice! Now that we know you are a human, you can proceed further.”. We also got the flag format of the challenge. Now that I know what’s going on, I intercepted the request again and sent it to the repeater.
 
 Now, we have passed the first check. Now keeping the user agent unchanged, we move to the next if-else conditional check. The second check is checking for the request header. It checks if the header “Sagarmatha-Hacktoberfest-CTF” is present with its value “https://hacktober.tk/“. So I went back to the repeater and added the header “Sagarmatha-Hacktoberfest-CTF” with its value “https://hacktober.tk/“. At the end of the response tab, we god the first word of the flag: `hacktoberfest_ctf{3qu4l17y}`.
