@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[Welcome you on my blog!]]></description><link>https://lgcolella.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 02 Nov 2020 22:39:47 GMT</lastBuildDate><item><title><![CDATA[What are and how to use Observables in RxJS]]></title><description><![CDATA[Learn all that you need to know about Observables.]]></description><link>https://lgcolella.github.io/gatsby-starter-developer-blog-v2/blog/top-7-rxjs-patterns/</link><guid isPermaLink="false">https://lgcolella.github.ioblog/top-7-rxjs-patternsWhat are and how to use Observables in RxJS</guid><dc:creator><![CDATA[Vincent van Gogh]]></dc:creator><pubDate>Sun, 30 Dec 2018 05:25:44 GMT</pubDate><content:encoded>&lt;p&gt;Observables are lazy Push collections of multiple values. They fill the missing spot in the following table:&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[Welcome you on my blog!]]></description><link>https://lgcolella.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 17 Nov 2020 21:54:06 GMT</lastBuildDate><item><title><![CDATA[What are and how to use Observables in RxJS]]></title><description><![CDATA[Learn all that you need to know about Observables.]]></description><link>https://lgcolella.github.io/gatsby-starter-developer-blog-v2/blog/top-7-rxjs-patterns/</link><guid isPermaLink="false">https://lgcolella.github.ioblog/top-7-rxjs-patternsWhat are and how to use Observables in RxJS</guid><dc:creator><![CDATA[Vincent van Gogh]]></dc:creator><pubDate>Sun, 30 Dec 2018 05:25:44 GMT</pubDate><content:encoded>&lt;p&gt;Observables are lazy Push collections of multiple values. They fill the missing spot in the following table:&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -331,109 +331,7 @@ subscription&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;sp
 &lt;span class=&quot;token comment&quot;&gt;// Later:&lt;/span&gt;
 &lt;span class=&quot;token function&quot;&gt;unsubscribe&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// dispose the resources&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;The reason why we use Rx types like Observable, Observer, and Subscription is to get safety (such as the Observable Contract) and composability with Operators.&lt;/p&gt;
-&lt;img src=&quot;/gatsby-starter-developer-blog-v2/18e736a993cb21d438fe487817abb042/image.gif&quot; alt=&quot;Image for the end of article&quot; style=&quot;display:block;margin:auto&quot;&gt;</content:encoded></item><item><title><![CDATA[Astuce: comment utiliser SCSS dans Angular CLI 6]]></title><description><![CDATA[Configurez SCSS pour votre prochain projet Angular.]]></description><link>https://lgcolella.github.io/gatsby-starter-developer-blog-v2/blog/fr/scss-in-angular-cli-6/</link><guid isPermaLink="false">https://lgcolella.github.ioblog/fr/scss-in-angular-cli-6Astuce: comment utiliser SCSS dans Angular CLI 6</guid><dc:creator><![CDATA[Vincent van Gogh]]></dc:creator><pubDate>Fri, 21 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Si vous connaissez déjà SCSS dans Angular CLI 1.x et que vous vous demandez maintenant comment l’utiliser dans la version 6, une toute nouvelle version fournie avec Angular 6, je suis là pour vous aider.&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1000px;&quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 41.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAARlAAAEZQAGA43XUAAABC0lEQVQoz5WPT0sCURxF53NGoE0JBrWpRdHK1kZBaf6pSNBKTBeRhbmJIEpi5mnKVKQjRIpERB/hNO9JKPKMXPwYGO479x6jOpdk+MRsQn1tX4xacJ92tMz70S3NjSKjWd0ZOpjwx2gsZ+id2zTDReqLKbqnFR4XDhEzcaqBQfZPoLrAHtZUhN6Zxct6gdr8Ae52SS2UJRJoe4W/A0bBhq5FPngO5XF3SriRKzq5ilr4ee3Q2rr0wGmEGZ9A2QtLvbfUDd9Wm6/7Vz7KdTrZO5zVE5yV40mUk1jTUVqbF3QLDzytZWkspZW6MBNq/bDqv5RVyANLiO3b7UM0irqVxriQWmH2wWNLNf9/ABFwy0syfmBJAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Sass logo&quot;
-        title=&quot;Le logo de Sass&quot;
-        src=&quot;/gatsby-starter-developer-blog-v2/static/f24335a00696d1c6b03d7826cdc48942/5d442/sass-image.png&quot;
-        srcset=&quot;/gatsby-starter-developer-blog-v2/static/f24335a00696d1c6b03d7826cdc48942/f13e0/sass-image.png 250w,
-/gatsby-starter-developer-blog-v2/static/f24335a00696d1c6b03d7826cdc48942/87981/sass-image.png 500w,
-/gatsby-starter-developer-blog-v2/static/f24335a00696d1c6b03d7826cdc48942/5d442/sass-image.png 1000w,
-/gatsby-starter-developer-blog-v2/static/f24335a00696d1c6b03d7826cdc48942/a1b30/sass-image.png 1200w&quot;
-        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;
-    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;Le logo de Sass&lt;/figcaption&gt;
-  &lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;Voici à quoi ressemble la configuration de style dans la CLI v1.x dans le fichier .angular-cli.json.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;quot;defaults&amp;quot;: {
-  &amp;quot;styleExt&amp;quot;: &amp;quot;scss&amp;quot;,
-  &amp;quot;component&amp;quot;: {}
-}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Mais si vous examinez un schéma de configuration du fichier &lt;strong&gt;angular.json&lt;/strong&gt; dans la version 6, vous ne retrouverez plus cette configuration. Mais ne vous inquiétez pas, l’équipe Angular de la CLI l’a couvert beaucoup plus facilement. Pour utiliser SCSS, importez simplement vos fichiers scss (la valeur par défaut est &lt;code class=&quot;language-text&quot;&gt;src / styles.scss&lt;/code&gt;) au niveau de votre projet dans un fichier &lt;strong&gt;angular.json&lt;/strong&gt; comme celui-ci.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;{
-  ...
-  projects: {
-    [your_project_name]: {
-      ...
-      architect: {
-        build: {
-          ...
-          options: {
-            styles:{
-              &amp;quot;src/styles.scss&amp;quot;
-            }
-          }
-        }
-      }
-    }
-  }
-}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;C’est tout, vous pouvez utiliser SCSS! Aucune autre configuration n’est nécessaire car l’équipe de la CLI vient juste de la couvrir, vous n’aurez donc pas à indiquer à la configuration le préprocesseur CSS qui sera utilisé. En approfondissant leur script de construction (&lt;code class=&quot;language-text&quot;&gt;node_modules / @ angular-devkit / build-angular / src / angular-cli-files / models / webpack-configs / styles.js&lt;/code&gt;), je suis sûr que vous pouvez inclure n&apos;importe quel type de &lt;em&gt;.css&lt;/em&gt;, &lt;em&gt;.sass&lt;/em&gt;, &lt;em&gt;.scss&lt;/em&gt;, &lt;em&gt;.less&lt;/em&gt; ou &lt;em&gt;.styl (stylet)&lt;/em&gt; et lancez immédiatement le codage de votre CSS. Je l’ai essayé très facilement!&lt;/p&gt;
-&lt;p&gt;De plus, ils permettent également de configurer facilement les navigateurs cibles pour le préfixe automatique. Vous pouvez trouver une liste de navigateurs de noms de fichiers dans le dossier src et modifier les navigateurs cibles de votre préfixe automatique. Je n’ai pas encore essayé, faites-moi savoir votre résultat si vous l’avez déjà essayé.&lt;/p&gt;
-&lt;p&gt;Ceci est juste un exemple de post. L&apos;original est ici:&lt;a href=&quot;https://medium.com/@vissanu_s/quick-tip-how-to-use-scss-in-angular-cli-6-63d263b3481c&quot;&gt;https://medium.com/@vissanu_s/quick-tip-how-to-use-scss-in-angular-cli-6-63d263b3481c&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Quick Tip: How to use SCSS in Angular CLI 6]]></title><description><![CDATA[Configure SCSS for your next Angular project.]]></description><link>https://lgcolella.github.io/gatsby-starter-developer-blog-v2/blog/scss-in-angular-cli-6/</link><guid isPermaLink="false">https://lgcolella.github.ioblog/scss-in-angular-cli-6Quick Tip: How to use SCSS in Angular CLI 6</guid><dc:creator><![CDATA[Vincent van Gogh]]></dc:creator><pubDate>Fri, 21 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;If you’re familiar working with SCSS in Angular CLI 1.x before and now you’re wondering how to use it in version 6, a brand new version that comes with Angular 6, I’m here to help.&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1000px;&quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 41.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAARlAAAEZQAGA43XUAAABC0lEQVQoz5WPT0sCURxF53NGoE0JBrWpRdHK1kZBaf6pSNBKTBeRhbmJIEpi5mnKVKQjRIpERB/hNO9JKPKMXPwYGO479x6jOpdk+MRsQn1tX4xacJ92tMz70S3NjSKjWd0ZOpjwx2gsZ+id2zTDReqLKbqnFR4XDhEzcaqBQfZPoLrAHtZUhN6Zxct6gdr8Ae52SS2UJRJoe4W/A0bBhq5FPngO5XF3SriRKzq5ilr4ee3Q2rr0wGmEGZ9A2QtLvbfUDd9Wm6/7Vz7KdTrZO5zVE5yV40mUk1jTUVqbF3QLDzytZWkspZW6MBNq/bDqv5RVyANLiO3b7UM0irqVxriQWmH2wWNLNf9/ABFwy0syfmBJAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Sass logo&quot;
-        title=&quot;The Sass logo&quot;
-        src=&quot;/gatsby-starter-developer-blog-v2/static/f24335a00696d1c6b03d7826cdc48942/5d442/sass-image.png&quot;
-        srcset=&quot;/gatsby-starter-developer-blog-v2/static/f24335a00696d1c6b03d7826cdc48942/f13e0/sass-image.png 250w,
-/gatsby-starter-developer-blog-v2/static/f24335a00696d1c6b03d7826cdc48942/87981/sass-image.png 500w,
-/gatsby-starter-developer-blog-v2/static/f24335a00696d1c6b03d7826cdc48942/5d442/sass-image.png 1000w,
-/gatsby-starter-developer-blog-v2/static/f24335a00696d1c6b03d7826cdc48942/a1b30/sass-image.png 1200w&quot;
-        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-    &lt;/span&gt;
-    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;The Sass logo&lt;/figcaption&gt;
-  &lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;This is how the style config in the CLI v1.x looks like in .angular-cli.json file.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;quot;defaults&amp;quot;: {
-  &amp;quot;styleExt&amp;quot;: &amp;quot;scss&amp;quot;,
-  &amp;quot;component&amp;quot;: {}
-}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;But if you take a look into a config schema of &lt;strong&gt;angular.json&lt;/strong&gt; file in version 6, you will no longer find this config anymore. But don’t worry, Angular CLI team got it cover in much easier way. To use SCSS, simply import you scss files (the default value is &lt;code class=&quot;language-text&quot;&gt;src/styles.scss&lt;/code&gt;) in your project level in an &lt;strong&gt;angular.json&lt;/strong&gt; file like this.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;{
-  ...
-  projects: {
-    [your_project_name]: {
-      ...
-      architect: {
-        build: {
-          ...
-          options: {
-            styles:{
-              &amp;quot;src/styles.scss&amp;quot;
-            }
-          }
-        }
-      }
-    }
-  }
-}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;That’s it, you’re good to go with SCSS! No any other config needed because CLI team just got it covered so you don’t have to tell the config which CSS-preprocessor is gonna be used anymore. By dig deeper in their build script (&lt;code class=&quot;language-text&quot;&gt;node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/webpack-configs/styles.js&lt;/code&gt;), I’m pretty sure that you can include any type of &lt;em&gt;.css&lt;/em&gt;, &lt;em&gt;.sass&lt;/em&gt;, &lt;em&gt;.scss&lt;/em&gt;, &lt;em&gt;.less&lt;/em&gt; or &lt;em&gt;.styl (stylus)&lt;/em&gt; and start your CSS coding right away. I’ve tried it, very easy!&lt;/p&gt;
-&lt;p&gt;Plus, they also provide the way to config target browsers for autoprefixer easily. You can find a file name browserslist in src folder and change the target browsers for your autoprefixer. I haven’t tried that yet, let me know your result if you already tried it.&lt;/p&gt;
-&lt;p&gt;This is just an example of a post. The original is here: &lt;a href=&quot;https://medium.com/@vissanu_s/quick-tip-how-to-use-scss-in-angular-cli-6-63d263b3481c&quot;&gt;https://medium.com/@vissanu_s/quick-tip-how-to-use-scss-in-angular-cli-6-63d263b3481c&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Pillole: Come usare SCSS in Angular CLI 6]]></title><description><![CDATA[Configura SCSS per il tuo prossimo progetto Angular.]]></description><link>https://lgcolella.github.io/gatsby-starter-developer-blog-v2/blog/it/scss-in-angular-cli-6/</link><guid isPermaLink="false">https://lgcolella.github.ioblog/it/scss-in-angular-cli-6Pillole: Come usare SCSS in Angular CLI 6</guid><dc:creator><![CDATA[Vincent van Gogh]]></dc:creator><pubDate>Fri, 21 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Se hai familiarità con SCSS in Angular CLI 1.x prima e ora ti stai chiedendo come usarlo nella versione 6, una nuova versione fornita con Angular 6, sono qui per aiutarti.&lt;/p&gt;
+&lt;img src=&quot;/gatsby-starter-developer-blog-v2/18e736a993cb21d438fe487817abb042/image.gif&quot; alt=&quot;Image for the end of article&quot; style=&quot;display:block;margin:auto&quot;&gt;</content:encoded></item><item><title><![CDATA[Pillole: Come usare SCSS in Angular CLI 6]]></title><description><![CDATA[Configura SCSS per il tuo prossimo progetto Angular.]]></description><link>https://lgcolella.github.io/gatsby-starter-developer-blog-v2/blog/it/scss-in-angular-cli-6/</link><guid isPermaLink="false">https://lgcolella.github.ioblog/it/scss-in-angular-cli-6Pillole: Come usare SCSS in Angular CLI 6</guid><dc:creator><![CDATA[Vincent van Gogh]]></dc:creator><pubDate>Fri, 21 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Se hai familiarità con SCSS in Angular CLI 1.x prima e ora ti stai chiedendo come usarlo nella versione 6, una nuova versione fornita con Angular 6, sono qui per aiutarti.&lt;/p&gt;
 &lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
     &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -484,7 +382,109 @@ subscription&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;sp
 }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Questo è tutto, sei a posto con SCSS! Non sono necessarie altre configurazioni perché il CLI è già configurata, quindi non devi dire al file di configurazione quale CSS-preprocessore verrà usato più. Scavando più a fondo nel loro script di compilazione (&lt;code class=&quot;language-text&quot;&gt;node_modules / @ angular-devkit / build-angular / src / angular-cli-files / models / webpack-configs / styles.js&lt;/code&gt;), sono abbastanza sicuro che è possibile includere qualsiasi tipo di &lt;em&gt;.css&lt;/em&gt;, &lt;em&gt;.sass&lt;/em&gt;, &lt;em&gt;.scss&lt;/em&gt;, &lt;em&gt;.less&lt;/em&gt; o &lt;em&gt;.styl (stylus)&lt;/em&gt; e inizia subito la codifica CSS. L&apos;ho provato, molto facile!&lt;/p&gt;
 &lt;p&gt;Inoltre, forniscono anche il modo di configurare facilmente i browser di destinazione per applicare automaticamente i prefissi. È possibile trovare un elenco di nomi di browser nella cartella src e modificare i browser di destinazione per aggiungere i prefissi desiderati. Non l&apos;ho ancora provato, fammi sapere il risultato se lo hai già provato.&lt;/p&gt;
-&lt;p&gt;Questo è solo un esempio di un post. L&apos;originale è qui: &lt;a href=&quot;https://medium.com/@vissanu_s/quick-tip-how-to-use-scss-in-angular-cli-6-63d263b3481c&quot;&gt;https://medium.com/@vissanu_s/quick-tip-how-to-use-scss-in-angular-cli-6-63d263b3481c&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to setup TypeScript with Laravel and Vue]]></title><description><![CDATA[In this post we'll see how setup the Typescript and how use it in a project built with Laravel and Vue.]]></description><link>https://lgcolella.github.io/gatsby-starter-developer-blog-v2/blog/setup-typescript-with-laravel-and-vue/</link><guid isPermaLink="false">https://lgcolella.github.ioblog/setup-typescript-with-laravel-and-vueHow to setup TypeScript with Laravel and Vue</guid><dc:creator><![CDATA[Vincent van Gogh]]></dc:creator><pubDate>Mon, 12 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;These last couple of weeks, I have been working on a Laravel project with a lot of dynamic interfaces that are heavily dependent on Vue. As the project started to get bigger and I was passing around many of the same data objects in different modules I felt that I wanted to secure myself from not accessing wrong properties or passing wrong arguments to functions that I might have written weeks ago.&lt;/p&gt;
+&lt;p&gt;Questo è solo un esempio di un post. L&apos;originale è qui: &lt;a href=&quot;https://medium.com/@vissanu_s/quick-tip-how-to-use-scss-in-angular-cli-6-63d263b3481c&quot;&gt;https://medium.com/@vissanu_s/quick-tip-how-to-use-scss-in-angular-cli-6-63d263b3481c&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Quick Tip: How to use SCSS in Angular CLI 6]]></title><description><![CDATA[Configure SCSS for your next Angular project.]]></description><link>https://lgcolella.github.io/gatsby-starter-developer-blog-v2/blog/scss-in-angular-cli-6/</link><guid isPermaLink="false">https://lgcolella.github.ioblog/scss-in-angular-cli-6Quick Tip: How to use SCSS in Angular CLI 6</guid><dc:creator><![CDATA[Vincent van Gogh]]></dc:creator><pubDate>Fri, 21 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;If you’re familiar working with SCSS in Angular CLI 1.x before and now you’re wondering how to use it in version 6, a brand new version that comes with Angular 6, I’m here to help.&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1000px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 41.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAARlAAAEZQAGA43XUAAABC0lEQVQoz5WPT0sCURxF53NGoE0JBrWpRdHK1kZBaf6pSNBKTBeRhbmJIEpi5mnKVKQjRIpERB/hNO9JKPKMXPwYGO479x6jOpdk+MRsQn1tX4xacJ92tMz70S3NjSKjWd0ZOpjwx2gsZ+id2zTDReqLKbqnFR4XDhEzcaqBQfZPoLrAHtZUhN6Zxct6gdr8Ae52SS2UJRJoe4W/A0bBhq5FPngO5XF3SriRKzq5ilr4ee3Q2rr0wGmEGZ9A2QtLvbfUDd9Wm6/7Vz7KdTrZO5zVE5yV40mUk1jTUVqbF3QLDzytZWkspZW6MBNq/bDqv5RVyANLiO3b7UM0irqVxriQWmH2wWNLNf9/ABFwy0syfmBJAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Sass logo&quot;
+        title=&quot;The Sass logo&quot;
+        src=&quot;/gatsby-starter-developer-blog-v2/static/f24335a00696d1c6b03d7826cdc48942/5d442/sass-image.png&quot;
+        srcset=&quot;/gatsby-starter-developer-blog-v2/static/f24335a00696d1c6b03d7826cdc48942/f13e0/sass-image.png 250w,
+/gatsby-starter-developer-blog-v2/static/f24335a00696d1c6b03d7826cdc48942/87981/sass-image.png 500w,
+/gatsby-starter-developer-blog-v2/static/f24335a00696d1c6b03d7826cdc48942/5d442/sass-image.png 1000w,
+/gatsby-starter-developer-blog-v2/static/f24335a00696d1c6b03d7826cdc48942/a1b30/sass-image.png 1200w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;The Sass logo&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;This is how the style config in the CLI v1.x looks like in .angular-cli.json file.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;quot;defaults&amp;quot;: {
+  &amp;quot;styleExt&amp;quot;: &amp;quot;scss&amp;quot;,
+  &amp;quot;component&amp;quot;: {}
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;But if you take a look into a config schema of &lt;strong&gt;angular.json&lt;/strong&gt; file in version 6, you will no longer find this config anymore. But don’t worry, Angular CLI team got it cover in much easier way. To use SCSS, simply import you scss files (the default value is &lt;code class=&quot;language-text&quot;&gt;src/styles.scss&lt;/code&gt;) in your project level in an &lt;strong&gt;angular.json&lt;/strong&gt; file like this.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;{
+  ...
+  projects: {
+    [your_project_name]: {
+      ...
+      architect: {
+        build: {
+          ...
+          options: {
+            styles:{
+              &amp;quot;src/styles.scss&amp;quot;
+            }
+          }
+        }
+      }
+    }
+  }
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;That’s it, you’re good to go with SCSS! No any other config needed because CLI team just got it covered so you don’t have to tell the config which CSS-preprocessor is gonna be used anymore. By dig deeper in their build script (&lt;code class=&quot;language-text&quot;&gt;node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/webpack-configs/styles.js&lt;/code&gt;), I’m pretty sure that you can include any type of &lt;em&gt;.css&lt;/em&gt;, &lt;em&gt;.sass&lt;/em&gt;, &lt;em&gt;.scss&lt;/em&gt;, &lt;em&gt;.less&lt;/em&gt; or &lt;em&gt;.styl (stylus)&lt;/em&gt; and start your CSS coding right away. I’ve tried it, very easy!&lt;/p&gt;
+&lt;p&gt;Plus, they also provide the way to config target browsers for autoprefixer easily. You can find a file name browserslist in src folder and change the target browsers for your autoprefixer. I haven’t tried that yet, let me know your result if you already tried it.&lt;/p&gt;
+&lt;p&gt;This is just an example of a post. The original is here: &lt;a href=&quot;https://medium.com/@vissanu_s/quick-tip-how-to-use-scss-in-angular-cli-6-63d263b3481c&quot;&gt;https://medium.com/@vissanu_s/quick-tip-how-to-use-scss-in-angular-cli-6-63d263b3481c&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Astuce: comment utiliser SCSS dans Angular CLI 6]]></title><description><![CDATA[Configurez SCSS pour votre prochain projet Angular.]]></description><link>https://lgcolella.github.io/gatsby-starter-developer-blog-v2/blog/fr/scss-in-angular-cli-6/</link><guid isPermaLink="false">https://lgcolella.github.ioblog/fr/scss-in-angular-cli-6Astuce: comment utiliser SCSS dans Angular CLI 6</guid><dc:creator><![CDATA[Vincent van Gogh]]></dc:creator><pubDate>Fri, 21 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Si vous connaissez déjà SCSS dans Angular CLI 1.x et que vous vous demandez maintenant comment l’utiliser dans la version 6, une toute nouvelle version fournie avec Angular 6, je suis là pour vous aider.&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1000px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 41.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAARlAAAEZQAGA43XUAAABC0lEQVQoz5WPT0sCURxF53NGoE0JBrWpRdHK1kZBaf6pSNBKTBeRhbmJIEpi5mnKVKQjRIpERB/hNO9JKPKMXPwYGO479x6jOpdk+MRsQn1tX4xacJ92tMz70S3NjSKjWd0ZOpjwx2gsZ+id2zTDReqLKbqnFR4XDhEzcaqBQfZPoLrAHtZUhN6Zxct6gdr8Ae52SS2UJRJoe4W/A0bBhq5FPngO5XF3SriRKzq5ilr4ee3Q2rr0wGmEGZ9A2QtLvbfUDd9Wm6/7Vz7KdTrZO5zVE5yV40mUk1jTUVqbF3QLDzytZWkspZW6MBNq/bDqv5RVyANLiO3b7UM0irqVxriQWmH2wWNLNf9/ABFwy0syfmBJAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Sass logo&quot;
+        title=&quot;Le logo de Sass&quot;
+        src=&quot;/gatsby-starter-developer-blog-v2/static/f24335a00696d1c6b03d7826cdc48942/5d442/sass-image.png&quot;
+        srcset=&quot;/gatsby-starter-developer-blog-v2/static/f24335a00696d1c6b03d7826cdc48942/f13e0/sass-image.png 250w,
+/gatsby-starter-developer-blog-v2/static/f24335a00696d1c6b03d7826cdc48942/87981/sass-image.png 500w,
+/gatsby-starter-developer-blog-v2/static/f24335a00696d1c6b03d7826cdc48942/5d442/sass-image.png 1000w,
+/gatsby-starter-developer-blog-v2/static/f24335a00696d1c6b03d7826cdc48942/a1b30/sass-image.png 1200w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;Le logo de Sass&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Voici à quoi ressemble la configuration de style dans la CLI v1.x dans le fichier .angular-cli.json.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;quot;defaults&amp;quot;: {
+  &amp;quot;styleExt&amp;quot;: &amp;quot;scss&amp;quot;,
+  &amp;quot;component&amp;quot;: {}
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Mais si vous examinez un schéma de configuration du fichier &lt;strong&gt;angular.json&lt;/strong&gt; dans la version 6, vous ne retrouverez plus cette configuration. Mais ne vous inquiétez pas, l’équipe Angular de la CLI l’a couvert beaucoup plus facilement. Pour utiliser SCSS, importez simplement vos fichiers scss (la valeur par défaut est &lt;code class=&quot;language-text&quot;&gt;src / styles.scss&lt;/code&gt;) au niveau de votre projet dans un fichier &lt;strong&gt;angular.json&lt;/strong&gt; comme celui-ci.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;{
+  ...
+  projects: {
+    [your_project_name]: {
+      ...
+      architect: {
+        build: {
+          ...
+          options: {
+            styles:{
+              &amp;quot;src/styles.scss&amp;quot;
+            }
+          }
+        }
+      }
+    }
+  }
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;C’est tout, vous pouvez utiliser SCSS! Aucune autre configuration n’est nécessaire car l’équipe de la CLI vient juste de la couvrir, vous n’aurez donc pas à indiquer à la configuration le préprocesseur CSS qui sera utilisé. En approfondissant leur script de construction (&lt;code class=&quot;language-text&quot;&gt;node_modules / @ angular-devkit / build-angular / src / angular-cli-files / models / webpack-configs / styles.js&lt;/code&gt;), je suis sûr que vous pouvez inclure n&apos;importe quel type de &lt;em&gt;.css&lt;/em&gt;, &lt;em&gt;.sass&lt;/em&gt;, &lt;em&gt;.scss&lt;/em&gt;, &lt;em&gt;.less&lt;/em&gt; ou &lt;em&gt;.styl (stylet)&lt;/em&gt; et lancez immédiatement le codage de votre CSS. Je l’ai essayé très facilement!&lt;/p&gt;
+&lt;p&gt;De plus, ils permettent également de configurer facilement les navigateurs cibles pour le préfixe automatique. Vous pouvez trouver une liste de navigateurs de noms de fichiers dans le dossier src et modifier les navigateurs cibles de votre préfixe automatique. Je n’ai pas encore essayé, faites-moi savoir votre résultat si vous l’avez déjà essayé.&lt;/p&gt;
+&lt;p&gt;Ceci est juste un exemple de post. L&apos;original est ici:&lt;a href=&quot;https://medium.com/@vissanu_s/quick-tip-how-to-use-scss-in-angular-cli-6-63d263b3481c&quot;&gt;https://medium.com/@vissanu_s/quick-tip-how-to-use-scss-in-angular-cli-6-63d263b3481c&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to setup TypeScript with Laravel and Vue]]></title><description><![CDATA[In this post we'll see how setup the Typescript and how use it in a project built with Laravel and Vue.]]></description><link>https://lgcolella.github.io/gatsby-starter-developer-blog-v2/blog/setup-typescript-with-laravel-and-vue/</link><guid isPermaLink="false">https://lgcolella.github.ioblog/setup-typescript-with-laravel-and-vueHow to setup TypeScript with Laravel and Vue</guid><dc:creator><![CDATA[Vincent van Gogh]]></dc:creator><pubDate>Mon, 12 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;These last couple of weeks, I have been working on a Laravel project with a lot of dynamic interfaces that are heavily dependent on Vue. As the project started to get bigger and I was passing around many of the same data objects in different modules I felt that I wanted to secure myself from not accessing wrong properties or passing wrong arguments to functions that I might have written weeks ago.&lt;/p&gt;
 &lt;p&gt;For smaller projects I feel that TypeScript can be a bit overkill when you just want something up and running fast, however I do definitely see its use cases once the project gets bigger, as I did with this project. After doing a lot of research and watching tutorials on how to get Laravel and Vue up and running with TypeScript support, I felt that the setup process was very complicated and many of the tutorials didn’t use the Vue class component, which I feel is where the real power of TypeScript kicks in.&lt;/p&gt;
 &lt;p&gt;So, I decided to put together a guide that has as few steps as possible and that uses as few third-party dependencies as possible. This is the result of me banging my head against the wall for a day in frustration trying different setup methods which most of them failed miserably. Follow the steps below if you want to avoid this kind of a headache and stress while setting up TypeScript with Vue in Laravel. :)&lt;/p&gt;
 &lt;p&gt;First, start off by creating a new Laravel project.&lt;/p&gt;
