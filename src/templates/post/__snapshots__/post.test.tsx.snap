@@ -76,6 +76,11 @@ exports[`Post template matches snapshot 1`] = `
       pageCanonicalUrl="https://lgcolella.github.io/gatsby-starter-developer-blog-v2/url-to-the-main-post/"
       title="main-post"
     />
+    <Comments
+      id="65f08b56-df9b-5392-9dcf-894ea64c82be"
+      title="main-post"
+      url="https://lgcolella.github.io/gatsby-starter-developer-blog-v2/url-to-the-main-post/"
+    />
     <SuggestedPosts
       posts={Array []}
     />

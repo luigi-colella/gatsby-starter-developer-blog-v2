@@ -112,6 +112,10 @@ Note that for ```index.md```, the ISO code used in metatags is taken from the ``
 
 Themes available with this starter are in ```src/style/themes```, but you can also create your own following these as example. Import what you prefer in ```src/style/index.less``` file.
 
+### How to setup comments in posts
+
+This starter uses an third party service called Disqus to manage comments. In order to setup it correctly, be sure to set value of ```disqusShortname``` properly in ```config.js``` file. 
+
 ## 📃 Credits
 
 * 404 page's image by [Freepik](https://www.freepik.com/free-vector/404-error-web-template-with-bored-cat_2234126.htm)

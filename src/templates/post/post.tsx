@@ -16,6 +16,7 @@ import Share from './share'
 import SuggestedPosts from './suggested-posts'
 import Config from '../../../config'
 import Utils from '../../utils'
+import Comments from './comments'
 const style = require('./post.module.less')
 
 const Post = ({ data, pageContext }: Props) => {
@@ -52,6 +53,7 @@ const Post = ({ data, pageContext }: Props) => {
         />
         <Article html={html} />
         <Share pageCanonicalUrl={canonicalUrl} title={title} />
+        <Comments url={canonicalUrl} id={id} title={title} />
         <SuggestedPosts posts={suggestedPosts} />
       </div>
     </Layout>

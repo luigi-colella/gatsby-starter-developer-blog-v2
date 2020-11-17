@@ -19,5 +19,6 @@ module.exports = {
     github: 'https://github.com/lgcolella/gatsby-starter-developer-blog-v2',
     linkedin: '#',
     rss: '#'
-  }
+  },
+  disqusShortname: 'disqus-shortname-example'
 }

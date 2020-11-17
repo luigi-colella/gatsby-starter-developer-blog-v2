@@ -67,5 +67,11 @@ module.exports = [
     feedPlugin,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
-    `gatsby-plugin-typescript`
+    `gatsby-plugin-typescript`,
+    {
+      resolve: 'gatsby-plugin-disqus',
+      options: {
+        shortname: config.disqusShortname
+      }
+    },
 ]

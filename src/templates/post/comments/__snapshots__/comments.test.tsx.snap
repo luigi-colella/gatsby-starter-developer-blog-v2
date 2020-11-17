@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post > Comments component matches snapshot 1`] = `
+<Disqus
+  config={
+    Object {
+      "identifier": "123",
+      "title": "Title of the post",
+      "url": "url/of/the/post",
+    }
+  }
+/>
+`;
