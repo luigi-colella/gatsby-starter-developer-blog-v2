@@ -41,6 +41,7 @@ https://lgcolella.github.io/gatsby-starter-developer-blog-v2
     - Favicon
     - Web App Manifest (manifest.json)
     - i18n support
+    - Disqus support
 * Style
     - Less styling
     - Responsive design
@@ -64,6 +65,7 @@ https://lgcolella.github.io/gatsby-starter-developer-blog-v2
 * [How to edit metatags of a post](#How-to-edit-metatags-of-a-post)
 * [How to add a translated version of a post](#How-to-add-a-translated-version-of-a-post)
 * [How to change themes](#how-to-change-themes)
+* [How to setup comments in posts](#how-to-setup-comments-in-posts)
 
 ### How to add a post
 
